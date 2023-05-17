@@ -11,17 +11,17 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   TextEditingController searchController = new TextEditingController();
   List<String> navBarItem = [
-    "Top News",
-    "India",
-    "World",
-    "Finacnce",
+    "Today",
+    "Sports",
+    "Health",
+    "Entertainment",
     "Health"
   ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("ARNE NEWS"),
+        title: Text("Laddoo NEWS"),
         centerTitle: true,
       ),
       body: SingleChildScrollView(
@@ -109,7 +109,7 @@ class _HomeState extends State<Home> {
                               ClipRRect(
                                   borderRadius: BorderRadius.circular(10),
                                   child: Image.asset(
-                                    "images/news.jpg",
+                                    "images/images.jpg",
                                     fit: BoxFit.fitHeight,
                                     height: double.infinity,
                                   )),
@@ -175,7 +175,7 @@ class _HomeState extends State<Home> {
                                 children: [
                                   ClipRRect(
                                       borderRadius: BorderRadius.circular(15),
-                                      child: Image.asset("images/news.jpg")),
+                                      child: Image.asset("images/asd.jpg")),
                                   Positioned(
                                       left: 0,
                                       right: 0,
