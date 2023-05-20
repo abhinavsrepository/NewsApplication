@@ -1,5 +1,5 @@
+import 'package:arne_news/home.dart';
 import 'package:flutter/material.dart';
-import 'package:news_app_mobile/home.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,8 +10,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Laddoo News',
       theme: ThemeData(
+
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
@@ -27,3 +29,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
